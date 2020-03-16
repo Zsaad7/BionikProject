@@ -48,6 +48,20 @@ defined('FOPEN_READ_WRITE_CREATE')              OR define('FOPEN_READ_WRITE_CREA
 defined('FOPEN_WRITE_CREATE_STRICT')            OR define('FOPEN_WRITE_CREATE_STRICT', 'xb');
 defined('FOPEN_READ_WRITE_CREATE_STRICT')       OR define('FOPEN_READ_WRITE_CREATE_STRICT', 'x+b');
 
+
+//CUSTOM
+$http = 'http' . ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') ? 's' : '') . '://';
+$fo = str_replace("index.php","", $_SERVER['SCRIPT_NAME']);
+$base = $base = "$http" . $_SERVER['SERVER_NAME'] . ":" . $_SERVER['SERVER_PORT'] . "" . $fo;
+
+defined('BASE_URL') 			OR define('BASE_URL'			, $base);
+
+define('JS', BASE_URL.'/public/js');
+define('CSS', BASE_URL.'/public/css');
+define('IMG', BASE_URL.'/public/images');
+define('UPLOAD', BASE_URL.'/admin/uploads');
+define('FONTS', BASE_URL.'/public/fonts');
+
 /*
 |--------------------------------------------------------------------------
 | Exit Status Codes
