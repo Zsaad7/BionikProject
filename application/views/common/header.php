@@ -50,7 +50,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="container-fluid">
             <div class="inner-header">
                 <div class="logo">
-                    <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                    <a href="#"><img src="<?php echo IMG?>/logos/logo.png" width="133px" heigth="47px"></a>
                 </div>
                 <div class="header-right">
                     <img src="img/icons/search.png" alt="" class="search-trigger">

@@ -58,7 +58,7 @@ defined('BASE_URL') 			OR define('BASE_URL'			, $base);
 
 define('JS', BASE_URL.'/public/js');
 define('CSS', BASE_URL.'/public/css');
-define('IMG', BASE_URL.'/public/images');
+define('IMG', BASE_URL.'/img');
 define('UPLOAD', BASE_URL.'/admin/uploads');
 define('FONTS', BASE_URL.'/public/fonts');
 
