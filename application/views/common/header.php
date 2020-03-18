@@ -11,7 +11,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <meta name="keywords" content="Yoga, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Violet | Template</title>
+    <title>Bionik Project</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet">
@@ -54,29 +54,42 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
                 <div class="header-right">
                     <img src="img/icons/search.png" alt="" class="search-trigger">
-                    <img src="img/icons/man.png" alt="">
+                 
                     <a href="#">
                         <img src="img/icons/bag.png" alt="">
                         <span>2</span>
                     </a>
                 </div>
-                <div class="user-access">
-                    <a href="#">Register</a>
-                    <a href="#" class="in">Sign in</a>
-                </div>
+                
                 <nav class="main-menu mobile-menu">
                     <ul>
-                        <li><a class="active" href="./index.html">Home</a></li>
-                        <li><a href="./categories.html">Shop</a>
-                            <ul class="sub-menu">
-                                <li><a href="product-page.html">Product Page</a></li>
-                                <li><a href="shopping-cart.html">Shopping Card</a></li>
-                                <li><a href="check-out.html">Check out</a></li>
+                        <li><a href="">Home</a></li>
+                        <li><a  href="">Nos Gammes</a>
+                        <ul class="sub-menu">
+                                <li><a href="product-page.html">DEFENCE</a></li>
+                                <li><a href="shopping-cart.html">TRIDERM</a></li>
+                                <li><a href="check-out.html">PROXERA</a></li>
+                                <li><a href="check-out.html">SHINE ON</a></li>
+                                <li><a href="check-out.html">AKNET</a></li>
+                                <li><a href="check-out.html">SO PURE</a></li>
+                                <li><a href="check-out.html">XSENSE</a></li>
+                                <li><a href="check-out.html">ONAILS</a></li>
+                                <li><a href="check-out.html">GYNEXELLE</a></li>
+                                <li><a href="check-out.html">SECTEUR SPECIALISE</a></li>
+                                <li><a href="check-out.html">Voir toutes nos gammes</a></li>
                             </ul>
                         </li>
-                        <li><a href="./product-page.html">About</a></li>
-                        <li><a href="./check-out.html">Blog</a></li>
-                        <li><a href="./contact.html">Contact</a></li>
+                         <li><a  href="./index.html">Nos Produits</a>
+                         
+                         <!-- kteb hna duk les produits dialk maa les sub menus dialhum ana qadit dial d les gammes -->
+                         </li>
+
+                        <li><a href="./index.html">Makeup</a>
+                             <!-- hadi tal mn b3d ta nhdro maah iqad lina catalogue dialha   -->
+                        </li>
+                        
+                        <li><a href="./product-page.html">A Propos de Nous</a></li>
+                       <li><a href="./contact.html">Contact</a></li>
                     </ul>
                 </nav>
             </div>
