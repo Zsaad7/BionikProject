@@ -1,12 +1,12 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Home extends CI_Controller {
+class Gamme extends CI_Controller {
 
 
 	public function index()
 	{
-		$data['content'] = 'home_view';
+		$data['content'] = 'gamme_view';
 		$this->load->view('common/content', $data);
 
 	}

@@ -720,6 +720,7 @@ ol {
 
 .features-box .single-box-item img {
 	min-width: 100%;
+	padding: 15px;
 }
 
 .features-box .single-box-item .box-text .trend-year {
