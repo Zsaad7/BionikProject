@@ -79,12 +79,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <li><a href="">Voir toutes nos gammes</a></li>
                             </ul>
                         </li>
-                         <li><a  href="./index.html">Nos Produits</a>
+                         <li><a  href="">Nos Produits</a>
                          
                          <!-- kteb hna duk les produits dialk maa les sub menus dialhum ana qadit dial d les gammes -->
                          </li>
 
-                        <li><a href="./index.html">Makeup</a>
+                        <li><a href="">Makeup</a>
                              <!-- hadi tal mn b3d ta nhdro maah iqad lina catalogue dialha   -->
                         </li>
                         
