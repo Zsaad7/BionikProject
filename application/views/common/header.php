@@ -28,7 +28,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 
-<body>
+<body onload="loaded()">
     <!-- Page Preloder -->
     <div id="preloder">
         <div class="loader"></div>
@@ -66,17 +66,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <li><a href="">Home</a></li>
                         <li><a  href="">Nos Gammes</a>
                         <ul class="sub-menu">
-                                <li><a href="product-page.html">DEFENCE</a></li>
-                                <li><a href="shopping-cart.html">TRIDERM</a></li>
-                                <li><a href="check-out.html">PROXERA</a></li>
-                                <li><a href="check-out.html">SHINE ON</a></li>
-                                <li><a href="check-out.html">AKNET</a></li>
-                                <li><a href="check-out.html">SO PURE</a></li>
-                                <li><a href="check-out.html">XSENSE</a></li>
-                                <li><a href="check-out.html">ONAILS</a></li>
-                                <li><a href="check-out.html">GYNEXELLE</a></li>
-                                <li><a href="check-out.html">SECTEUR SPECIALISE</a></li>
-                                <li><a href="check-out.html">Voir toutes nos gammes</a></li>
+                                <li><a class="<?php if($currentURL == 'home') echo 'current' ?>" href="<?php echo site_url('home')?>">DEFENCE</a></li>
+                                <li><a href="">TRIDERM</a></li>
+                                <li><a href="">PROXERA</a></li>
+                                <li><a href="">SHINE ON</a></li>
+                                <li><a href="">AKNET</a></li>
+                                <li><a href="">SO PURE</a></li>
+                                <li><a href="">XSENSE</a></li>
+                                <li><a href="">ONAILS</a></li>
+                                <li><a href="">GYNEXELLE</a></li>
+                                <li><a href="">SECTEUR SPECIALISE</a></li>
+                                <li><a href="">Voir toutes nos gammes</a></li>
                             </ul>
                         </li>
                          <li><a  href="./index.html">Nos Produits</a>
