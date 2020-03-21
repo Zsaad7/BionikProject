@@ -63,10 +63,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 
                 <nav class="main-menu mobile-menu">
                     <ul>
-                        <li><a href="">Home</a></li>
+                        <li><a class="<?php if($currentURL == 'home') echo 'current' ?>" href="<?php echo site_url('home')?>">Home</a></li>
                         <li><a  href="">Nos Gammes</a>
                         <ul class="sub-menu">
-                                <li><a class="<?php if($currentURL == 'home') echo 'current' ?>" href="<?php echo site_url('home')?>">DEFENCE</a></li>
+                                <li><a class="<?php if($currentURL == 'gamme') echo 'current' ?>" href="<?php echo site_url('gamme')?>">DEFENCE</a></li>
                                 <li><a href="">TRIDERM</a></li>
                                 <li><a href="">PROXERA</a></li>
                                 <li><a href="">SHINE ON</a></li>
