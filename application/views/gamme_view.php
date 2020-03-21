@@ -1,4 +1,4 @@
-    <!-- Latest Product Begin -->
+
     <section class="latest-products spad">
         <div class="container">
             <div class="product-filter">
@@ -26,7 +26,10 @@
                         </figure>
                         <div class="product-text">
                             <h6>Green Dress with details</h6>
+
                             <p>$05.36</p>
+
+                  
                         </div>
                     </div>
                 </div>
@@ -116,4 +119,4 @@
             </div>
         </div>
     </section>
-    <!-- Latest Product End -->
+
