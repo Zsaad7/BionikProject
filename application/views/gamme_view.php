@@ -1,3 +1,4 @@
+
     <!-- Latest Product Begin -->
     <section class="latest-products spad">
         <div class="container">
@@ -11,16 +12,7 @@
                      <option >Gammes 01</option>
                      <option >Gammes 01</option>
                 </select>
-                <br></br>
-              
-                 <select >
-                    <option >Gammes 01</option>
-                    <option >Gammes 02</option>
-                    <option >Gammes 01</option>
-                     <option >Gammes 01</option>
-                     <option >Gammes 01</option>
-                     <option >Gammes 01</option>
-                </select>
+               
             </div>
                     
                     <?php foreach ($gammes as $gamme ) {
@@ -44,4 +36,3 @@
             </div>
         </div>
     </section>
-    <!-- Latest Product End -->
