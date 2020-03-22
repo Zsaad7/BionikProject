@@ -1,19 +1,47 @@
-<h1>sipiu
-</h1>
-<p>aodpufvapfvhinoavadfvgpvasduipvop=]08ytrtiop[poiuygfddddddddddddddddcv d ,]sad-0cpd WECB8we7cnwaep[cwep8dgw\p[ weWE0-</p>
-<p>aodpufvapfvhinoavadfvgpvasduipvop=]08ytrtiop[poiuygfddddddddddddddddcv d ,]sad-0cpd WECB8we7cnwaep[cwep8dgw\p[ weWE0-</p>
-
-
-<p>aodpufvapfvhinoavadfvgpvasduipvop=]08ytrtiop[poiuygfddddddddddddddddcv d ,]sad-0cpd WECB8we7cnwaep[cwep8dgw\p[ weWE0-</p>
-
-
-<p>aodpufvapfvhinoavadfvgpvasduipvop=]08ytrtiop[poiuygfddddddddddddddddcv d ,]sad-0cpd WECB8we7cnwaep[cwep8dgw\p[ weWE0-</p>
-
-
-<p>aodpufvapfvhinoavadfvgpvasduipvop=]08ytrtiop[poiuygfddddddddddddddddcv d ,]sad-0cpd WECB8we7cnwaep[cwep8dgw\p[ weWE0-</p>
-
-
-
-
-<h1>sipiu
-</h1>
+    <!-- Latest Product Begin -->
+    <section class="latest-products spad">
+        <div class="container">
+            <!--- use a class row in a dive to get things good -->
+            <div class="row">
+                <select >
+                    <option >Gammes 01</option>
+                    <option >Gammes 02</option>
+                    <option >Gammes 01</option>
+                     <option >Gammes 01</option>
+                     <option >Gammes 01</option>
+                     <option >Gammes 01</option>
+                </select>
+                <br></br>
+              
+                 <select >
+                    <option >Gammes 01</option>
+                    <option >Gammes 02</option>
+                    <option >Gammes 01</option>
+                     <option >Gammes 01</option>
+                     <option >Gammes 01</option>
+                     <option >Gammes 01</option>
+                </select>
+            </div>
+                    
+                    <?php foreach ($gammes as $gamme ) {
+                     
+                    ?>       
+                            <div class="row" id="product-list">
+                                <div class="col-lg-3 col-sm-6 mix all dresses bags">
+                                    <div class="single-product-item">
+                                        <figure>
+                                            <a href="#"><img src="<?php echo IMG?>/gammes/<?php  echo $gamme->images; ?>" width="340px" heigth="240px"></a>
+                                            <div class="p-status"><?php echo $gamme->Nouveaute; ?></div>
+                                        </figure>
+                                        <div class="product-text">
+                                            <h6><?php echo $gamme->description; ?></h6>
+                                            <p><?php echo $gamme->prix; ?> </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php } ?>
+          
+            </div>
+        </div>
+    </section>
+    <!-- Latest Product End -->
