@@ -1,3 +1,4 @@
+
     <!-- Latest Product Begin -->
     <section class="latest-products spad">
         <div class="container">
@@ -11,6 +12,7 @@
                      <option >Gammes 01</option>
                      <option >Gammes 01</option>
                 </select>
+
                 <br></br>
               
                  <select >
@@ -21,6 +23,7 @@
                      <option >Gammes 01</option>
                      <option >Gammes 01</option>
                 </select>
+
             </div>
                     
                     <?php foreach ($gammes as $gamme ) {
@@ -30,7 +33,11 @@
                                 <div class="col-lg-3 col-sm-6 mix all dresses bags">
                                     <div class="single-product-item">
                                         <figure>
+
                                             <a href="#"><img src="<?php echo IMG?>/gammes/<?php  echo $gamme->images; ?>" width="340px" heigth="240px"></a>
+
+                                            <a href="#"><img src="<?php echo $gamme->images; ?>" alt=""></a>
+
                                             <div class="p-status"><?php echo $gamme->Nouveaute; ?></div>
                                         </figure>
                                         <div class="product-text">
@@ -44,4 +51,3 @@
             </div>
         </div>
     </section>
-    <!-- Latest Product End -->
